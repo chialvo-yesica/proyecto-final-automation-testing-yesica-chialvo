@@ -1,0 +1,17 @@
+[
+    {
+        "login_id": "locked_out_user",
+        "clave": "secret_sauce",
+        "mensaje_esperado": "Sorry, this user has been locked out."
+    },
+    {
+        "login_id": "standard_user",
+        "clave": "incorrecta",
+        "mensaje_esperado": "Username and password do not match any user in this service"
+    },
+    {
+        "login_id": "",
+        "clave": "secret_sauce",
+        "mensaje_esperado": "Username is required"
+    }
+]
