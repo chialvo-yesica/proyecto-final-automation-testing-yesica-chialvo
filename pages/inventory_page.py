@@ -10,6 +10,7 @@ class ProductsInventoryPage(SeleniumBasePage):
 
     #Producto específico y botón
     BOTON_ADD_BACKPACK = (By.ID, "add-to-cart-sauce-labs-backpack")
+    BOTON_ADD_FLEECE_JACKET = (By.ID, "add-to-cart-sauce-labs-fleece-jacket")
 
     #Icono del carrito
     ICONO_CARRITO = (By.ID, "shopping_cart_container")
@@ -26,6 +27,10 @@ class ProductsInventoryPage(SeleniumBasePage):
     #Agrega el producto 'Sauce Labs Backpack' al carrito
     def add_backpack_to_cart(self):
         self.click_on(*self.BOTON_ADD_BACKPACK)
+    
+    #Agrega el producto 'Sauce Labs Fleece Jacket' al carrito
+    def add_fleece_jacket_to_cart(self):
+        self.click_on(*self.BOTON_ADD_FLEECE_JACKET)
 
     #Hace clic en el icono del carrito
     def go_to_shopping_cart(self):
