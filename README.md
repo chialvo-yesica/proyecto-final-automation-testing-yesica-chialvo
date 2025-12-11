@@ -50,8 +50,10 @@ proyecto-final-automation-testing-yesica-chialvo/
 │  └─ ui/ 
 │     ├─ test_auth_negative.py
 │     ├─ test_auth_positive.py
+│     ├─ test_cart_flow_fail.py
 │     ├─ test_cart_flow.py
-│     └─ test_purchase_flow.py
+│     ├─ test_purchase_flow.py
+│     └─ test_purchase_validation_fail.py
 ├─ utils/
 │  ├─ api_client.py
 │  ├─ data_reader.py
